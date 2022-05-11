@@ -1,0 +1,53 @@
+body {
+    background-color: #DCDEE6;
+    color: #242424;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner .logo:first-of-type {
+    width: 200px;
+    height: 200px;
+}
+
+.banner .logo:last-of-type {
+    width: 150px;
+    height: 150px;
+}
+
+.banner .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.detection-wrapper {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detection-wrapper__title {
+    margin-bottom: 30px;
+}
+
+.detection-wrapper__name {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.detection-wrapper__img {
+    width: 500px;
+    height: 350px;
+}
+
+.camera-btn{
+    width: 200px;
+}
